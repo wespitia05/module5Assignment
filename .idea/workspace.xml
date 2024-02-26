@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd54fea6-37c4-40eb-a258-e87e9b2a416c" name="Changes" comment="">
+    <list default="true" id="bd54fea6-37c4-40eb-a258-e87e9b2a416c" name="Changes" comment="added @FXML fields for different objects">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/module5assignment/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/module5assignment/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/module5assignment/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/module5assignment/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +36,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.HelloApplication.executor": "Run",
+    "Application.Unnamed.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -64,12 +67,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708975782708</updated>
-      <workItem from="1708975785141" duration="966000" />
+      <workItem from="1708975785141" duration="1667000" />
     </task>
+    <task id="LOCAL-00001" summary="added @FXML fields for different objects">
+      <option name="closed" value="true" />
+      <created>1708991204135</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708991204135</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added @FXML fields for different objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="added @FXML fields for different objects" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

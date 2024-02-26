@@ -21,4 +21,19 @@ public class HelloController {
     @FXML
     private TableView tableViewStudentInfo;
 
+    public void handleClearButton () {
+        System.out.println ("handleClearButton called");
+    }
+
+    public void handleAddButton () {
+        System.out.println ("handleAddButton called");
+    }
+
+    public void handleDeleteButton () {
+        System.out.println ("handleDeleteButton called");
+    }
+
+    public void handleEditButton () {
+        System.out.println ("handleEditButton called");
+    }
 }
