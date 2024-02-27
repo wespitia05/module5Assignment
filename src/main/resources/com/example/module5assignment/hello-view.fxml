@@ -14,7 +14,7 @@
 <?import javafx.scene.shape.Arc?>
 <?import javafx.scene.shape.Circle?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.module5assignment.HelloController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../../../../java/com/example/module5assignment/module5.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.module5assignment.HelloController">
    <top>
       <MenuBar BorderPane.alignment="CENTER">
         <menus>
@@ -38,7 +38,7 @@
       </MenuBar>
    </top>
    <left>
-      <VBox prefHeight="373.0" prefWidth="97.0" spacing="10.0" BorderPane.alignment="CENTER">
+      <VBox prefHeight="373.0" prefWidth="97.0" spacing="10.0" styleClass="vbox-pane" stylesheets="@../../../../java/com/example/module5assignment/module5.css" BorderPane.alignment="CENTER">
          <children>
             <Pane prefHeight="96.0" prefWidth="88.0">
                <children>
@@ -55,7 +55,7 @@
       </VBox>
    </left>
    <right>
-      <VBox prefHeight="373.0" prefWidth="114.0" spacing="4.0" BorderPane.alignment="CENTER">
+      <VBox prefHeight="373.0" prefWidth="114.0" spacing="4.0" styleClass="vbox-textfields" stylesheets="@../../../../java/com/example/module5assignment/module5.css" BorderPane.alignment="CENTER">
          <padding>
             <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
          </padding>
@@ -66,19 +66,19 @@
             <TextField fx:id="textFieldMajor" promptText="Major" />
             <TextField fx:id="textFieldEmail" promptText="Email" />
             <TextField fx:id="textFieldImageURL" promptText="imageURL" />
-            <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleClearButton" text="Clear">
+            <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleClearButton" styleClass="brown-button" text="Clear">
                <VBox.margin>
                   <Insets top="60.0" />
                </VBox.margin>
             </Button>
-            <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleAddButton" text="Add" />
-            <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleDeleteButton" text="Delete" />
-            <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleEditButton" text="Edit" />
+            <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleAddButton" styleClass="brown-button" text="Add" />
+            <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleDeleteButton" styleClass="brown-button" text="Delete" />
+            <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleEditButton" styleClass="brown-button" text="Edit" />
          </children>
       </VBox>
    </right>
    <center>
-      <TableView fx:id="tableViewStudentInfo" prefHeight="377.0" prefWidth="389.0" BorderPane.alignment="TOP_CENTER">
+      <TableView fx:id="tableViewStudentInfo" prefHeight="377.0" prefWidth="389.0" styleClass="column-header-background" stylesheets="@../../../../java/com/example/module5assignment/module5.css" BorderPane.alignment="TOP_CENTER">
         <columns>
           <TableColumn minWidth="-1.0" prefWidth="30.0" text="ID" />
           <TableColumn prefWidth="75.0" text="First Name" />
