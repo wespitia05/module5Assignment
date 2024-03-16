@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd54fea6-37c4-40eb-a258-e87e9b2a416c" name="Changes" comment="added event handlers and fxid's">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/module5assignment/module5.css" afterDir="false" />
+    <list default="true" id="bd54fea6-37c4-40eb-a258-e87e9b2a416c" name="Changes" comment="implemented css code, however it only shows in scenebuilder and not the application when i run it">
+      <change beforePath="$PROJECT_DIR$/.idea/cssdialects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/module5assignment/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/module5assignment/HelloApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/module5assignment/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/module5assignment/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/module5assignment/module5.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/module5assignment/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/module5assignment/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,27 +43,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HelloApplication.executor": "Run",
-    "Application.Unnamed.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.CSS",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.CSS&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/com/example/module5assignment" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/module5assignment" />
     </key>
   </component>
@@ -91,7 +93,9 @@
       <option name="presentableId" value="Default" />
       <updated>1708975782708</updated>
       <workItem from="1708975785141" duration="2190000" />
-      <workItem from="1708992209254" duration="7178000" />
+      <workItem from="1708992209254" duration="8189000" />
+      <workItem from="1710456740380" duration="509000" />
+      <workItem from="1710559391338" duration="3396000" />
     </task>
     <task id="LOCAL-00001" summary="added @FXML fields for different objects">
       <option name="closed" value="true" />
@@ -109,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708991824017</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="implemented css code, however it only shows in scenebuilder and not the application when i run it">
+      <option name="closed" value="true" />
+      <created>1709000050912</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709000050912</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +130,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added @FXML fields for different objects" />
     <MESSAGE value="added event handlers and fxid's" />
-    <option name="LAST_COMMIT_MESSAGE" value="added event handlers and fxid's" />
+    <MESSAGE value="implemented css code, however it only shows in scenebuilder and not the application when i run it" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented css code, however it only shows in scenebuilder and not the application when i run it" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

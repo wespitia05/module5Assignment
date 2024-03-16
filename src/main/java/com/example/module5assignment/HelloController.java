@@ -25,6 +25,7 @@ public class HelloController {
 
     public void handleClearButton () {
         System.out.println ("handleClearButton called");
+
     }
 
     public void handleAddButton () {
